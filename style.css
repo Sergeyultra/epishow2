@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #171717;
+    color: white;
+}
+
+header {
+    background-color: #090909;
+    font-weight: 800;
+    border-bottom: black 2px solid;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header > nav > ul > li {
+    display: inline;
+    padding: 1rem;
+}
+
+header > nav a {
+    text-decoration: none;
+    transition: all 0.1s ease;
+    color: lightgray;
+}
+header > nav a:hover {
+    color: white;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+footer {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+header > nav {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.burgers-wrapper {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.burgers-wrapper section {
+    margin: 0 auto;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.burgers-wrapper section h2 {
+    text-align: center;
+}
+
+.burgers-wrapper section img {
+    width: 400px;
+}
+
+.about-wrapper {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-container > div {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.shop-about {
+    padding: 1rem;
+}
+
+.cooks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cooks img {
+    width: 16rem;
+}
+
+#feedback {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+#feedback h2 {
+    text-align: center;
+}
+
+#feedback form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+form input {
+    width: 60%;
+    margin: 1rem;
+}
+
+form textarea {
+    width: 60%;
+    margin: 1rem;
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.feedback-input {
+    padding: 1rem;
+    background-color: #101010;
+    border-radius: 1rem;
+    border: 2px #131313 solid;
+}
+
+.feedback-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.feedback-item {
+    border: 2px black solid ;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.button-up {
+    position: sticky;
+    float: right;
+    bottom: 4rem;
+    right: 4rem;
+    padding: .5rem;
+    border-radius: 9999px;
+    background-color: white;
+    color: black;
+}
